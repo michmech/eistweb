@@ -1,0 +1,15 @@
+main div.hero {
+  text-align: center;
+  margin: 100px 0px;
+}
+main div.hero h1 {
+  font-weight: normal;
+  font-size: 3em;
+  line-height: 1.25em;
+  margin: 0px;
+}
+main div.hero div.slogan {
+  line-height: 1.75em;
+  margin-top: 1.25em;
+  font-size: 1.15em;
+}

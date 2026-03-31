@@ -1,0 +1,57 @@
+header {
+  background-color: var(--color1);
+  color: var(--color4);
+  overflow-y: overflow;
+  padding: 12px 10px;
+  height: 3.5em;
+  box-sizing: border-box;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  float: left;
+  position: relative;
+}
+header a:hover {
+  color: var(--color4)
+}
+
+header a.home {
+  background-color: var(--color2);
+  background-image: url(eist.svg);
+  background-position: center 20px;
+  background-repeat: no-repeat;
+  background-size: 150px auto;
+  display: block;
+  height: 8em;
+  width: 225px;
+  float: left;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-top: -12px;
+  border-radius: 0px 0px 2px 2px;
+}
+
+header a.menuItem {
+  display: inline-block;
+  padding: 8px 20px;
+  margin-left: 0px;
+  border-radius: 20px;
+}
+header a.menuItem.current {
+  background-color: var(--color2);
+}
+
+header a.right {
+  display: block;
+  padding: 8px 20px;
+  float: right;
+  position: relative;
+  border-radius: 20px;
+}
+header a.right.current {
+  background-color: #ffffff;
+  color: var(--color1);
+}

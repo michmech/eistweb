@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root {
+  --color0: #111111;
+  --color1: #354649;
+  --color2: #6C7A89;
+  --color3: #A3C6C4;
+  --color4: #e7eff1;
+};
+
+html {
+  min-height: 100%;
+}
+body {
+  font-family: 'Inter', Verdana, sans-serif !important;
+  font-size: 1rem;
+  line-height: 1.15em;
+  background-color: #ffffff;
+  background-image: url(backdrop.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: var(--color0);
+  padding: 0px;
+  margin: 0px;
+}
+@media (max-width: 400px){}
+*:focus {
+  outline: 2px dotted #ff7e7e;
+  outline-offset: 5px;
+}
+
+main {
+  clear: both;
+  min-height: calc(100vh - 100px);
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 15px 15px 30px 15px;
+  position: relative;
+  box-sizing: border-box;
+  line-height: 1.25em;
+}
+
+main a {
+  text-decoration: none;  
+  border-bottom: 1px solid;
+  color: #245583;
+  padding-bottom: 2px;
+}
+main a:hover {
+  color: #3c6c99;
+}
+
