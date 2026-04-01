@@ -1,6 +1,6 @@
 footer {
   background-color: var(--color4);
-  margin-top: 50px;
+  margin-top: 0px;
   padding: 50px 0px 50px 0px;
 }
 
@@ -8,7 +8,7 @@ footer div.main {
   clear: both;
   max-width: 1200px;
   margin: 0px auto;
-  padding: 15px 15px 30px 15px;
+  padding: 15px 15px 30px 30px;
   position: relative;
   box-sizing: border-box;
   line-height: 1.25em;
