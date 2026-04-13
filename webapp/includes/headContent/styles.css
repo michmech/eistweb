@@ -1,26 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
+  --colorN: #666666;
   --color0: #111111;
-  --color1: #354649;
-  --color2: #6C7A89;
-  --color3: #A3C6C4;
-  --color4: #e7eff1;
+  --color1: #0E2B58;
+  --color2: #b8c7d6;
+  --color3: #4FC6DE;
+  --color4: #b5ebf5;
+  --color5: #e7eff1;
 };
 
 html {
   min-height: 100%;
 }
 body {
-  font-family: 'Inter', Verdana, sans-serif !important;
-  font-size: 1rem;
+  font-family: 'Roboto Condensed', Verdana, sans-serif !important;
+  font-size: 1.1rem;
   line-height: 1.15em;
-  background-color: #ffffff;
-  background-image: url(backdrop.jpg);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
   color: var(--color0);
   padding: 0px;
   margin: 0px;
+  background-color: #ffffff;
+  background-image: url(wave.svg);
+  background-repeat: no-repeat;
+  background-size: calc(100% + 400px) auto;
+  background-position: -100px -150px;
 }
 @media (max-width: 400px){}
 *:focus {

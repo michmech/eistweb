@@ -1,16 +1,17 @@
 main div.hero {
   text-align: center;
-  margin: 50px 0px 100px 0px;
+  margin: 100px 0px 125px 0px;
 }
 main div.hero h1 {
-  font-weight: normal;
+  color: var(--color1);
+  font-weight: bold;
   font-size: 3em;
   line-height: 1.25em;
   margin: 0px;
 }
 main div.hero div.slogan {
   line-height: 1.75em;
-  margin-top: 1.25em;
+  margin-top: 1em;
   font-size: 1.15em;
 }
 
@@ -42,7 +43,7 @@ main div.demoboxline div.demobox div.top {
 main div.demoboxline div.demobox div.top h2 {
   color: var(--color1);
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.35em;
   line-height: 1.25em;
   margin: 0px;
 }
@@ -56,12 +57,12 @@ main div.demoboxline div.demobox div.middle {
 main div.demoboxline div.demobox div.bottom {
   margin: 20px -20px -20px -20px;
   padding: 20px;
-  background-color: var(--color4);
+  background-color: var(--color5);
 }
 main div.demoboxline div.demobox div.bottom a {}
 
 main ul.callboxline {
-  margin: 50px 0px -30px 0px;
+  margin: 0px 0px -30px 0px;
   display: block;
   padding: 0px;
   overflow: auto;
@@ -69,8 +70,9 @@ main ul.callboxline {
 main ul.callboxline li.callbox {
   display: block;
   box-sizing: border-box;
-  border-radius: 2px;
-  background-color: var(--color4);
+  border-radius: 4px;
+  background-color: var(--color5);
+  border: 1px solid var(--color2);
   padding: 20px;
   margin: 0px 40px 40px 0px;
   overflow: hidden;
