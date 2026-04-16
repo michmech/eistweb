@@ -61,6 +61,8 @@ function do404(req, res){
 //Hook up our webpage-serving endpoints:
 import page_home from "./pages/home/server.js";
   page_home(app, L, do404, __dirname);
+import page_about from "./pages/about/server.js";
+  page_about(app, L, do404, __dirname);
 
 //Block HTTP access to server-side code:
 app.all("/*/server.js", do404);

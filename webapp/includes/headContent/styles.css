@@ -58,3 +58,36 @@ main a:hover {
   color: #3c6c99;
 }
 
+main div.hero {
+  text-align: center;
+  margin: 100px 0px 125px 0px;
+}
+main div.hero h1 {
+  color: var(--color1);
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 1.25em;
+  margin: 0px;
+}
+main div.hero div.slogan {
+  line-height: 1.75em;
+  margin-top: 0.5em;
+  font-size: 1.25em;
+}
+main div.hero div.slogan a {
+  white-space: nowrap;
+}
+
+main div.prose {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1em;
+  line-height: 1.75em;
+  padding: 0px 15px;
+}
+main div.prose:last-child {
+  margin-bottom: 100px;
+  @media (max-width: 900px){
+    margin-bottom: 0px;
+  }
+}
