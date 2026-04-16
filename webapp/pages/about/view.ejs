@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="<%=uilang%>">
+  <head>
+    <%-include("../../includes/headContent/view.ejs", this)%>
+    <link rel="stylesheet" href="/about/styles.css"/>
+    <script src="/about/scripts.js"></script>
+  </head>
+  <body>
+    <%-include("../../includes/header/view.ejs", this)%>
+    <main>
+      
+      <div class="hero">
+        <h1>About ÈIST</h1>
+        <div class="slogan">
+          What we do and why
+        </div>
+      </div>
+
+      <div class="prose">
+        <p>
+          Scottish Gaelic, spoken by roughly 60,000 people today, is poised for a technological transformation thanks to the ÈIST project, led by the University of Edinburgh. ÈIST [eːʃtʲ] (‘ayshch’) is short for Ecosystem for Interactive Speech Technologies, and means ‘listen’ in Gaelic. The project is funded by the Scottish Government and Bòrd na Gàidhlig, with key partners including the BBC ALBA, NVIDIA, the University of Glasgow and Tobar an Dualchais / Kist o Riches. It aims to support the revitalisation of the language through cutting-edge interactive technologies, including speech recognition.
+        </p>
+        <p>
+          Since launching in 2023, ÈIST has focussed on developing accurate speech-to-text for Gaelic, but also for English — to cope with code-switching. The initial aim was to produce a system that could generate Gaelic-medium subtitles for BBC ALBA and Radio nan Gàidheal. In a 2025 research paper, the team reports achieving nearly 90% accuracy for chat shows, news and current affairs programmes. Now the team is expanding the technology, making it suitable for more diverse contexts, ranging from Gaelic-speaking classrooms to old fieldwork recordings.
+        </p>
+      </div>
+
+    </main>
+    <%-include("../../includes/footer/view.ejs", this)%>
+  </body>
+</html>

@@ -44,13 +44,15 @@ header a.menuItem {
   display: inline-block;
   padding: 8px 20px;
   margin-left: 0px;
-  border-radius: 20px;
+  border-bottom: 2px solid transparent;
   @media (max-width: 1100px){
     display: none;
   }
 }
 header a.menuItem.current {
-  background-color: var(--color2);
+  /* background-color: var(--color2);
+  color: var(--color1); */
+  border-bottom-color: #ffffff;
 }
 
 header a.right {
