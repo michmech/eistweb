@@ -5,6 +5,10 @@ footer {
   padding: 50px 0px 50px 0px;
 }
 
+footer div.signoff {
+  line-height: 1.75em;
+}
+
 footer div.main {
   clear: both;
   max-width: 1200px;
@@ -36,10 +40,16 @@ footer a.logo {
   width: 225px;
   float: right;
   margin-top: -40px;
+  @media (max-width: 500px){
+    display: none;
+  }
 }
 
 footer div.logos {
   margin-top: 50px;
+  text-wrap: balance;
+  white-space: nowrap;
+  overflow-x: auto;
 }
 footer div.logos a {
   border: 0px;
@@ -47,6 +57,7 @@ footer div.logos a {
   display: inline-block;
   outline-offset: 4px;
   vertical-align: top;
+  margin-bottom: 20px;
 }
 footer div.logos a img {
   height: 75px;
@@ -65,7 +76,7 @@ footer div.logos a.tobar img {
 
 footer div.statement {
   color: var(--colorN);
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 0.95em;
   line-height: 1.5em;
   max-width: 600px;

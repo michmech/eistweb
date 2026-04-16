@@ -1,7 +1,7 @@
 header {
   background-color: var(--color1);
   color: var(--color4);
-  overflow-y: overflow;
+  overflow-y: visible;
   padding: 12px 10px;
   height: 3.5em;
   box-sizing: border-box;
@@ -21,17 +21,23 @@ header a:hover {
 header a.home {
   background-color: var(--color3);
   background-image: url(eist.svg);
-  background-position: center 40px;
   background-repeat: no-repeat;
-  background-size: 175px auto;
-  display: block;
   height: 10em;
   width: 275px;
+  background-position: center;
+  background-size: 70% auto;
+  display: block;
   float: left;
   margin-right: 20px;
   margin-left: 10px;
   margin-top: -12px;
   border-radius: 0px 0px 2px 2px;
+  @media (max-width: 600px){
+    height: 7em;
+    width: 170px;
+    background-position: center;
+    background-size: 80% auto;
+  }
 }
 
 header a.menuItem {
@@ -39,6 +45,9 @@ header a.menuItem {
   padding: 8px 20px;
   margin-left: 0px;
   border-radius: 20px;
+  @media (max-width: 1100px){
+    display: none;
+  }
 }
 header a.menuItem.current {
   background-color: var(--color2);
@@ -54,4 +63,16 @@ header a.right {
 header a.right.current {
   background-color: #ffffff;
   color: var(--color1);
+}
+header a.right span.short {
+  display: none;
+  @media (max-width: 600px){
+    display: inline;
+  }
+}
+header a.right span.long {
+  display: inline;
+  @media (max-width: 600px){
+    display: none;
+  }
 }
