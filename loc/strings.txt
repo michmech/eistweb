@@ -1,0 +1,96 @@
+Homepage, header, footer:
+-------------------------
+
+#siteshortname
+ÈIST
+ÈIST
+
+#sitelongname
+Ecosystem for Interactive Speech Technologies
+Ecosystem for Interactive Speech Technologies
+
+#hometitle
+The Future of Gaelic in the Digital Age
+The Future of Gaelic in the Digital Age
+
+#homesubtitle
+ÈIST is building speech & language technology for Scottish Gaelic.
+ÈIST is building speech & language technology for Scottish Gaelic.
+
+#footerline1
+Led by the University of Edinburgh
+Led by the University of Edinburgh
+
+#footerline2
+Funded by Bòrd na Gàidhlig and the Scottish Government
+Funded by Bòrd na Gàidhlig and the Scottish Government
+
+#unofed
+The University of Edinburgh
+Oilthigh Dhùn Èideann
+
+#unofgla
+University of Glasgow
+Oilthigh Ghlaschu
+
+#scotgov
+Scottish Government 
+Riaghaltas na h-Alba
+
+#bnag
+Bòrd na Gàidhlig
+Bòrd na Gàidhlig
+
+#tobar
+Tobar an Dualchais
+Tobar an Dualchais
+
+
+Statement in the footer of every page, required by CAHSS
+Digital Estates Team's 'Responsibilities for site owners' document:
+-------------------------------------------------------------------
+
+#unofedstatement
+The University of Edinburgh is a charitable body, registered in Scotland, with registration number SC005336, VAT Registration Number GB 592 9507 00, and is acknowledged by the UK authorities as a “Recognised body” which has been granted degree awarding powers.
+’S e buidheann charthannais a th’ ann an Oilthigh Dhùn Èideann, clàraichte ann an Albainn, leis an àireamh chlàraidh SC005336, Àireamh Clàraidh VAT GB 592 9507 00, agus tha ùghdarrasan na RA ga aithneachadh mar “Bhuidheann Aithnichte” aig a bheil cumhachdan ceuman a thoirt seachad.
+
+
+Subsections of the website
+--------------------------
+
+#about
+About ÈIST
+Mu dheidhinn ÈIST
+
+#aboutslug
+/about-eist
+/mu-dheidhinn-eist
+
+#abouttagline
+What we do and why
+What we do and why
+
+#teampartners
+Team and partners
+Team and partners
+
+#teampartnersslug
+/team-and-partners
+/team-and-partners
+
+#teampartnerstagline
+The people and organisations behind ÈIST
+The people and organisations behind ÈIST
+
+#resultspubs
+Results and publications
+Results and publications
+
+#resultspubsslug
+/results-and-publications
+/results-and-publications
+
+#resultspubstagline
+All ÈIST output in one place
+All ÈIST output in one place
+

@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="/header/styles.css"/>
 <header>
-  <a class="home" href="/" title="ÈIST"></a>
+  <a class="home" href="/" title="<%=L('#siteshortname')%>"></a>
 
-  <a class="menuItem <%if(section=="about"){%>current<%}%>" href="/<%-uilang%>/about">About ÈIST</a>
-  <a class="menuItem" href="/<%-uilang%>/">Team and partners</a>
-  <a class="menuItem" href="/<%-uilang%>/">Results and publications</a>
+  <a class="menuItem <%-(section=='about'?'current':'')%>" href="/<%-uilang%>/<%-L('#aboutslug')%>"><%=L('#about')%></a>
+  <a class="menuItem <%-(section=='teampartners'?'current':'')%>" href="/<%-uilang%>/<%-L('#teampartnersslug')%>"><%=L('#teampartners')%></a>
+  <a class="menuItem <%-(section=='resultspubs'?'current':'')%>" href="/<%-uilang%>/<%-L('#resultspubsslug')%>"><%=L('#resultspubs')%></a>
 
-  <a class="right" href="/en" lang="en"><span class="short" title="English">EN</span><span class="long">English</span></a>
-  <a class="right current" href="/gd" lang="gd"><span class="short" title="Gàidhlig">GD</span><span class="long">Gàidhlig</span></a>
+  <a class="right <%-uilang=='en' ? 'current' : ''%>" href="<%-pageUrls['en']%>" lang="en"><span class="short" title="English">EN</span><span class="long">English</span></a>
+  <a class="right <%-uilang=='gd' ? 'current' : ''%>" href="<%-pageUrls['gd']%>" lang="gd"><span class="short" title="Gàidhlig">GD</span><span class="long">Gàidhlig</span></a>
 </header>

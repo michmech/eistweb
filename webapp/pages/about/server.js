@@ -1,15 +1,17 @@
 export default function(app, L, do404, rootdir){
 
-  app.get("/:uilang(gd|en)/(about|about)", function(req, res){
+  const slugRegex = "(" + L("gd", "#aboutslug") + "|" + L("en", "#aboutslug") + ")";
+
+  app.get("/:uilang(gd|en)/"+slugRegex, function(req, res){
     res.render("about/view.ejs", {
       uilang: req.params.uilang,
       L: (multistring, subpart) => L(req.params.uilang, multistring, subpart),
-      pageTitle: "ÈIST",
-      pageDescription: "ÈIST",
+      pageTitle: L(req.params.uilang, "#about"),
+      pageDescription: L(req.params.uilang, "#abouttagline"),
       section: "about",
       pageUrls: {
-        "gd": "/gd/about",
-        "en": "/en/about",
+        "gd": "/gd/" + L("gd", "#aboutslug"),
+        "en": "/en/" + L("en", "#aboutslug"),
       },
     });
   });

@@ -10,9 +10,9 @@
     <main>
       
       <div class="hero">
-        <h1>The Future of Gaelic in the Digital Age</h1>
+        <h1><%=L("#hometitle")%></h1>
         <div class="slogan">
-          ÈIST is building speech & language technology for Scottish Gaelic.
+          <%=L("#homesubtitle")%>
           <a href="#">About ÈIST...</a>
         </div>
       </div>
@@ -100,16 +100,16 @@
 
       <ul class="callboxline">
         <li class="callbox">
-          <a href="#">About ÈIST</a>
-          <div class="blurb">What we do and why</div>
+          <a href="/<%-uilang%>/<%-L('#aboutslug')%>"><%=L('#about')%></a>
+          <div class="blurb"><%=L('#abouttagline')%></div>
         </li>
         <li class="callbox">
-          <a href="#">Team and partners</a>
-          <div class="blurb">The people and organisations<br/>behind ÈIST</div>
+          <a href="/<%-uilang%>/<%-L('#teampartnersslug')%>"><%=L('#teampartners')%></a>
+          <div class="blurb"><%=L('#teampartnerstagline')%></div>
         </li>
         <li class="callbox">
-          <a href="#">Results and publications</a>
-          <div class="blurb">All ÈIST output in one place</div>
+          <a href="/<%-uilang%>/<%-L('#resultspubsslug')%>"><%=L('#resultspubs')%></a>
+          <div class="blurb"><%=L('#resultspubstagline')%></div>
         </li>
       </ul>
 
