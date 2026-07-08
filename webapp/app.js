@@ -8,6 +8,8 @@ app.use(bodyParser.json({ limit: '10mb' })); // for parsing application/json
 import cookieParser from 'cookie-parser';
 app.use(cookieParser());
 import { SHA3 } from "sha3";
+import markdown from "markdown-it";
+import attrs from "markdown-it-attrs";
 
 const PORT=process.env.PORT||80;
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -17,6 +19,20 @@ app.hash = (s) => {
   const hash = new SHA3(512);
   hash.update(s);
   return hash.digest('hex');
+};
+
+//our function for markdown-to-html conversion:
+app.doMarkdown = (txt) => {
+  var md=new markdown({html: true});
+  md.use(attrs);
+  //markup images our own way:
+  txt=txt.replace(/\!\[([^\]]*)\]\(([^\)]+)\)\s*(\{\.(([^\}]+))\})?/g, function(m, caption, filename, x, className){
+    return `<figure class="${className}"><div><img src="${filename}" alt=""></div><figcaption>${caption}</figcaption></figure>\n\n`;
+  });
+  var html=md.render(txt);
+  //add target=_blank to outgoing links:
+  html=html.replace(/\<a href="http/g, `<a target="_blank" href="http`);
+  return html;
 };
 
 //www redirect:
