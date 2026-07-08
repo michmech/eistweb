@@ -94,3 +94,26 @@ Results and publications
 All ÈIST output in one place
 All ÈIST output in one place
 
+
+Red dot stuff
+-------------
+
+#login
+Log in
+Log in
+
+#logout
+Log out
+Log out
+
+#editthistext
+Edit this text 
+Edit this text 
+
+#save
+Save
+Save
+
+#cancel
+Cancel
+Cancel

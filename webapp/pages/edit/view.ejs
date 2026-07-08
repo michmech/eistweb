@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <title><%=L('#siteshortname')%></title>
+    
+    <link rel="stylesheet" href="/icons.css"/>
+    <link rel="stylesheet" href="/edit/styles.css"/>
+    <!-- <script src="/edit/scripts.js"></script> -->
+  </head>
+  <body>
+    <form method="post" action="/edit">
+      <input type="hidden" name="nickname" value="<%=nickname%>"/>
+      <input type="hidden" name="returnUrl" value="<%=returnUrl%>"/>
+      <input type="hidden" name="type" value="<%=type%>"/>
+      <div class="parallel">
+        <div class="cell">
+          <div class="lang">GD</div>
+          <textarea name="value_gd" lang="gd"><%=value_gd%></textarea>
+        </div>
+        <div class="cell">
+          <div class="lang">EN</div>
+          <textarea name="value_en" lang="en"><%=value_en%></textarea>
+        </div>
+      </div>
+      <div class="saving">
+        <a href="<%=returnUrl%>"><%=L('#cancel')%></a>
+        <button type="submit"><%=L('#save')%></button>
+      </div>
+    </form>
+  </body>
+</html>

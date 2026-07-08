@@ -18,7 +18,11 @@
 
       <div class="prose">
         <%-prose%>
+        <div class="reddot">
+          <a href="/edit?nickname=about&returnUrl=<%=pageUrls[uilang]%>"><%=L("#editthistext")%></a>
+        </div>
       </div>
+
 
     </main>
     <%-include("../../includes/footer/view.ejs", this)%>

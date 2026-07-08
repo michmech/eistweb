@@ -82,5 +82,25 @@
   "#resultspubstagline": {
     "en": "All ÈIST output in one place",
     "gd": "All ÈIST output in one place"
+  },
+  "#login": {
+    "en": "Log in",
+    "gd": "Log in"
+  },
+  "#logout": {
+    "en": "Log out",
+    "gd": "Log out"
+  },
+  "#editthistext": {
+    "en": "Edit this text",
+    "gd": "Edit this text"
+  },
+  "#save": {
+    "en": "Save",
+    "gd": "Save"
+  },
+  "#cancel": {
+    "en": "Cancel",
+    "gd": "Cancel"
   }
 }

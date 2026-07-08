@@ -1,4 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
   --colorN: #666666;
@@ -90,4 +89,23 @@ main div.prose:last-child {
   @media (max-width: 900px){
     margin-bottom: 0px;
   }
+}
+
+div.reddot::before {
+  content: "• ";
+  color: #ff7e7e;
+  font-size: 1.5rem;
+  line-height: 1.25em;
+  margin-right: 0.25em;
+  position: relative;
+  top: 0.15em;
+}
+div.reddot {
+  font-size: 1rem;
+}
+div.reddot a {
+  color: var(--colorN);
+}
+div.reddot a:hover {
+  color: #3c6c99;
 }
