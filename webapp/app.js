@@ -79,6 +79,10 @@ import page_home from "./pages/home/server.js";
   page_home(app, L, do404, __dirname);
 import page_about from "./pages/about/server.js";
   page_about(app, L, do404, __dirname);
+import page_teampartners from "./pages/teampartners/server.js";
+  page_teampartners(app, L, do404, __dirname);
+import page_resultspubs from "./pages/resultspubs/server.js";
+  page_resultspubs(app, L, do404, __dirname);
 import page_edit from "./pages/edit/server.js";
   page_edit(app, L, do404, __dirname);
 

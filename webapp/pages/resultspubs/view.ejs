@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="<%=uilang%>">
+  <head>
+    <%-include("../../includes/headContent/view.ejs", this)%>
+    <link rel="stylesheet" href="/resultspubs/styles.css"/>
+    <script src="/resultspubs/scripts.js"></script>
+  </head>
+  <body>
+    <%-include("../../includes/header/view.ejs", this)%>
+    <main>
+      
+      <div class="hero">
+        <h1><%=L("#resultspubs")%></h1>
+        <div class="slogan">
+          <%=L("#resultspubstagline")%>
+        </div>
+      </div>
+
+      <div class="prose">
+        <%-prose%>
+        <div class="reddot">
+          <a href="/edit?nickname=resultspubs&returnUrl=<%=pageUrls[uilang]%>"><%=L("#editthistext")%></a>
+        </div>
+      </div>
+
+
+    </main>
+    <%-include("../../includes/footer/view.ejs", this)%>
+  </body>
+</html>
