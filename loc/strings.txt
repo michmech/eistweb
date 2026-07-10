@@ -95,6 +95,90 @@ All ÈIST output in one place
 All ÈIST output in one place
 
 
+Opening the Well stuff
+----------------------
+
+#openingthewell
+Opening The Well
+Fosgladh an Tobair
+
+#openingthewellslogan
+Transcribing Scotland’s oral heritage
+A’ tar-sgrìobhadh beul-aithris na h-Alba
+
+#hourminustessofar
+Hours and minutes of speech transcribed so far
+Uairean agus mionaidean de labhairt tar-sgrìobhte cheana
+
+#wordssofar
+Words transcribed so far
+Faclan tar-sgrìobhte cheana
+
+#visitopeningthewell
+Visit Opening the Well website
+Visit Opening the Well website
+
+#openingthewellcalltoaction
+Become a volunteer transcriber
+Gabh nar cuideachd mar tar-sgrìobhadair
+
+
+ASR stuff
+---------
+
+#asr
+Automatic Speech Recognition
+Aithneachadh Labhairt Fèin-obrachachail
+
+#asrtagline
+Converting spoken Gaelic to written text
+Converting spoken Gaelic to written text
+
+#subtitleavideo
+Subtitle a Gaelic video
+Subtitle a Gaelic video
+
+#starthere
+Start here
+Start here
+
+#moreaboutasr
+More about Gaelic speech-to-text technology
+More about Gaelic speech-to-text technology
+
+#asrslug
+/speech-to-text
+/speech-to-text
+
+#asrpagetitle
+Gaelic speech-to-text technology
+Gaelic speech-to-text technology
+
+
+LLM stuff
+---------
+
+#llmscoreboard
+LLM Scoreboard
+LLM Scoreboard
+
+#llmtagline
+How well do Large Language Models work with Gaelic?
+How well do Large Language Models work with Gaelic?
+
+#llmcalltoaction
+More about Large Language Models and Gaelic
+More about Large Language Models and Gaelic
+
+#llmslug
+/large-language-models
+/large-language-models
+
+#llmpagetitle
+Large Language Models and Gaelic
+Large Language Models and Gaelic
+
+
 Red dot stuff
 -------------
 
@@ -107,8 +191,12 @@ Log out
 Log out
 
 #editthistext
-Edit this text 
-Edit this text 
+Edit this text
+Edit this text
+
+#editthisdata
+Edit these data 
+Edit these data
 
 #save
 Save

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="<%=uilang%>">
+  <head>
+    <%-include("../../includes/headContent/view.ejs", this)%>
+    <link rel="stylesheet" href="/llm/styles.css"/>
+    <script src="/llm/scripts.js"></script>
+  </head>
+  <body>
+    <%-include("../../includes/header/view.ejs", this)%>
+    <main>
+      
+      <div class="hero">
+        <h1><%=L("#llmpagetitle")%></h1>
+        <div class="slogan">
+          <%=L("#llmtagline")%>
+        </div>
+      </div>
+
+      <div class="demobox">
+        <div class="top">
+          <h2><%=L("#llmscoreboard")%></h2>
+        </div>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <div class="reddot">
+          <a href="/edit?nickname=llmscoreboard&returnUrl=<%=pageUrls[uilang]%>"><%=L("#editthisdata")%></a>
+        </div>
+      </div>
+
+      <div class="prose">
+        <%-prose%>
+        <div class="reddot">
+          <a href="/edit?nickname=llm&returnUrl=<%=pageUrls[uilang]%>"><%=L("#editthistext")%></a>
+        </div>
+      </div>
+
+
+    </main>
+    <%-include("../../includes/footer/view.ejs", this)%>
+  </body>
+</html>

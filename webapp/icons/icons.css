@@ -1,0 +1,141 @@
+span.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  mask-size: contain;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  vertical-align: middle;
+  background-color: #333333;
+}
+span.icon.angle-down {
+  mask-image: url(/angle-down.svg);
+  -webkit-mask-image: url(/angle-down.svg);
+}
+span.icon.user {
+  mask-image: url(/user.svg);
+  -webkit-mask-image: url(/user.svg);
+}
+span.icon.up-right-from-square {
+  mask-image: url(/up-right-from-square.svg);
+  -webkit-mask-image: url(/up-right-from-square.svg);
+}
+span.icon.circle-question {
+  mask-image: url(/circle-question.svg);
+  -webkit-mask-image: url(/circle-question.svg);
+}
+span.icon.angles-right {
+  mask-image: url(/angles-right.svg);
+  -webkit-mask-image: url(/angles-right.svg);
+}
+span.icon.play {
+  mask-image: url(/play.svg);
+  -webkit-mask-image: url(/play.svg);
+}
+span.icon.pause {
+  mask-image: url(/pause.svg);
+  -webkit-mask-image: url(/pause.svg);
+}
+span.icon.square-plus {
+  mask-image: url(/square-plus.svg);
+  -webkit-mask-image: url(/square-plus.svg);
+}
+span.icon.trash-can {
+  mask-image: url(/trash-can.svg);
+  -webkit-mask-image: url(/trash-can.svg);
+}
+span.icon.circle-check {
+  mask-image: url(/circle-check.svg);
+  -webkit-mask-image: url(/circle-check.svg);
+}
+span.icon.users {
+  mask-image: url(/users.svg);
+  -webkit-mask-image: url(/users.svg);
+}
+span.icon.keyboard {
+  mask-image: url(/keyboard.svg);
+  -webkit-mask-image: url(/keyboard.svg);
+}
+span.icon.clock {
+  mask-image: url(/clock.svg);
+  -webkit-mask-image: url(/clock.svg);
+}
+span.icon.circle {
+  mask-image: url(/circle.svg);
+  -webkit-mask-image: url(/circle.svg);
+}
+span.icon.square {
+  mask-image: url(/square.svg);
+  -webkit-mask-image: url(/square.svg);
+}
+span.icon.diamond {
+  mask-image: url(/diamond.svg);
+  -webkit-mask-image: url(/diamond.svg);
+}
+span.icon.ellipsis {
+  mask-image: url(/ellipsis.svg);
+  -webkit-mask-image: url(/ellipsis.svg);
+}
+span.icon.clock-rotate-left {
+  mask-image: url(/clock-rotate-left.svg);
+  -webkit-mask-image: url(/clock-rotate-left.svg);
+}
+span.icon.xmark {
+  mask-image: url(/xmark.svg);
+  -webkit-mask-image: url(/xmark.svg);
+}
+span.icon.gear {
+  mask-image: url(/gear.svg);
+  -webkit-mask-image: url(/gear.svg);
+}
+span.icon.circle-info {
+  mask-image: url(/circle-info.svg);
+  -webkit-mask-image: url(/circle-info.svg);
+}
+span.icon.person-digging {
+  mask-image: url(/person-digging.svg);
+  -webkit-mask-image: url(/person-digging.svg);
+}
+span.icon.triangle-exclamation {
+  mask-image: url(/triangle-exclamation.svg);
+  -webkit-mask-image: url(/triangle-exclamation.svg);
+}
+span.icon.check {
+  mask-image: url(/check.svg);
+  -webkit-mask-image: url(/check.svg);
+}
+span.icon.angle-left {
+  mask-image: url(/angle-left.svg);
+  -webkit-mask-image: url(/angle-left.svg);
+}
+span.icon.award {
+  mask-image: url(/award.svg);
+  -webkit-mask-image: url(/award.svg);
+}
+span.icon.thumbs-up {
+  mask-image: url(/thumbs-up.svg);
+  -webkit-mask-image: url(/thumbs-up.svg);
+}
+span.icon.thumbs-down {
+  mask-image: url(/thumbs-down.svg);
+  -webkit-mask-image: url(/thumbs-down.svg);
+}
+span.icon.creative-commons {
+  mask-image: url(/creative-commons.svg);
+  -webkit-mask-image: url(/creative-commons.svg);
+}
+span.icon.creative-commons-by {
+  mask-image: url(/creative-commons-by.svg);
+  -webkit-mask-image: url(/creative-commons-by.svg);
+}
+span.icon.envelope {
+  mask-image: url(/envelope.svg);
+  -webkit-mask-image: url(/envelope.svg);
+}
+span.icon.circle-play {
+  mask-image: url(/circle-play.svg);
+  -webkit-mask-image: url(/circle-play.svg);
+}

@@ -83,6 +83,10 @@ import page_teampartners from "./pages/teampartners/server.js";
   page_teampartners(app, L, do404, __dirname);
 import page_resultspubs from "./pages/resultspubs/server.js";
   page_resultspubs(app, L, do404, __dirname);
+import page_asr from "./pages/asr/server.js";
+  page_asr(app, L, do404, __dirname);
+import page_llm from "./pages/llm/server.js";
+  page_llm(app, L, do404, __dirname);
 import page_edit from "./pages/edit/server.js";
   page_edit(app, L, do404, __dirname);
 
@@ -96,7 +100,7 @@ app.use("/", express.static(path.join(__dirname, "pages")));
 app.use("/", express.static(path.join(__dirname, "includes")));
 app.use("/", express.static(path.join(__dirname, "icons")));
 app.use("/", express.static(path.join(__dirname, "components")));
-app.use("/", express.static(path.join(__dirname, "images")));
+//app.use("/", express.static(path.join(__dirname, "images")));
 app.use(do404);
 
 //Start listening:

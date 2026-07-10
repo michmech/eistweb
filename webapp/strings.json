@@ -83,6 +83,78 @@
     "en": "All ÈIST output in one place",
     "gd": "All ÈIST output in one place"
   },
+  "#openingthewell": {
+    "en": "Opening The Well",
+    "gd": "Fosgladh an Tobair"
+  },
+  "#openingthewellslogan": {
+    "en": "Transcribing Scotland’s oral heritage",
+    "gd": "A’ tar‑sgrìobhadh beul‑aithris na h‑Alba"
+  },
+  "#hourminustessofar": {
+    "en": "Hours and minutes of speech transcribed so far",
+    "gd": "Uairean agus mionaidean de labhairt tar‑sgrìobhte cheana"
+  },
+  "#wordssofar": {
+    "en": "Words transcribed so far",
+    "gd": "Faclan tar‑sgrìobhte cheana"
+  },
+  "#visitopeningthewell": {
+    "en": "Visit Opening the Well website",
+    "gd": "Visit Opening the Well website"
+  },
+  "#openingthewellcalltoaction": {
+    "en": "Become a volunteer transcriber",
+    "gd": "Gabh nar cuideachd mar tar‑sgrìobhadair"
+  },
+  "#asr": {
+    "en": "Automatic Speech Recognition",
+    "gd": "Aithneachadh Labhairt Fèin‑obrachachail"
+  },
+  "#asrtagline": {
+    "en": "Converting spoken Gaelic to written text",
+    "gd": "Converting spoken Gaelic to written text"
+  },
+  "#subtitleavideo": {
+    "en": "Subtitle a Gaelic video",
+    "gd": "Subtitle a Gaelic video"
+  },
+  "#starthere": {
+    "en": "Start here",
+    "gd": "Start here"
+  },
+  "#moreaboutasr": {
+    "en": "More about Gaelic speech‑to‑text technology",
+    "gd": "More about Gaelic speech‑to‑text technology"
+  },
+  "#asrslug": {
+    "en": "speech-to-text",
+    "gd": "speech-to-text"
+  },
+  "#asrpagetitle": {
+    "en": "Gaelic speech‑to‑text technology",
+    "gd": "Gaelic speech‑to‑text technology"
+  },
+  "#llmscoreboard": {
+    "en": "LLM Scoreboard",
+    "gd": "LLM Scoreboard"
+  },
+  "#llmtagline": {
+    "en": "How well do Large Language Models work with Gaelic?",
+    "gd": "How well do Large Language Models work with Gaelic?"
+  },
+  "#llmcalltoaction": {
+    "en": "More about Large Language Models and Gaelic",
+    "gd": "More about Large Language Models and Gaelic"
+  },
+  "#llmslug": {
+    "en": "large-language-models",
+    "gd": "large-language-models"
+  },
+  "#llmpagetitle": {
+    "en": "Large Language Models and Gaelic",
+    "gd": "Large Language Models and Gaelic"
+  },
   "#login": {
     "en": "Log in",
     "gd": "Log in"
@@ -94,6 +166,10 @@
   "#editthistext": {
     "en": "Edit this text",
     "gd": "Edit this text"
+  },
+  "#editthisdata": {
+    "en": "Edit these data",
+    "gd": "Edit these data"
   },
   "#save": {
     "en": "Save",

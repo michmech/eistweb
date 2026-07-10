@@ -109,3 +109,83 @@ div.reddot a {
 div.reddot a:hover {
   color: #3c6c99;
 }
+
+main .iconrow {
+  box-sizing: border-box;
+  margin: 0px 0px 0px 0px;
+  padding: 30px 0px 20px 0px;
+  display: grid;
+  column-gap: 0px;
+  row-gap: 20px;
+}
+main .iconrow.of2 {
+  grid-template-columns: calc(50% - 15px) calc(50% - 15px);
+}
+main .iconrow.of1 {
+  grid-template-columns: auto;
+}
+main a.iconrow {
+  border: none;
+  border-radius: 20px;
+}
+main a.iconrow:hover {
+  background-color: #f9f9f9;
+}
+main .iconrow div.iconbox {
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.75em;
+  text-align: center;
+  padding: 1px 10px;
+}
+main .iconrow span.icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+  background-color: var(--color2);
+}
+main a.iconrow:hover span.icon {
+  background-color: var(--color3);
+}
+main .iconrow span.num {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: var(--colorN);
+}
+main a.iconrow:hover span.num {
+  color: var(--color1);
+}
+main a.iconrow span.caption {
+  display: block;
+  color: var(--color0);
+  text-wrap: balance;
+}
+main a.iconrow span.caption.lonely {
+  margin-top: 5px;
+}
+main a.iconrow:hover span.caption {
+  color: var(--color1);
+}
+main a.iconrow span.button {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 3px 20px;
+  border-radius: 4px;
+  background-color: var(--color5);
+  border: 1px solid var(--color2);
+  color: var(--color1);
+  box-shadow: 4px 4px 0px var(--color5);
+}
+main a.iconrow:hover span.button {
+  color: var(--color0);
+  border-color: var(--colorN);
+}
+main a.iconrow:active span.button {
+  position: relative;
+  top: 1px;
+  left: 1px;
+  /* box-shadow: -4px -4px 0px var(--color5); */
+}
+
