@@ -20,7 +20,7 @@
         <div class="top">
           <h2><%=L("#llmscoreboard")%></h2>
         </div>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <%-include("../../includes/scorecard/view.ejs", this)%>
         <div class="reddot">
           <a href="/edit?nickname=llmscoreboard&returnUrl=<%=pageUrls[uilang]%>"><%=L("#editthisdata")%></a>
         </div>

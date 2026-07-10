@@ -143,8 +143,8 @@ Start here
 Start here
 
 #moreaboutasr
-More about Gaelic speech-to-text technology
-More about Gaelic speech-to-text technology
+More about Gaelic speech-to-text
+More about Gaelic speech-to-text
 
 #asrslug
 /speech-to-text
@@ -163,12 +163,16 @@ LLM Scoreboard
 LLM Scoreboard
 
 #llmtagline
-How well do Large Language Models work with Gaelic?
-How well do Large Language Models work with Gaelic?
+How well do Large Language Models know Gaelic?
+How well do Large Language Models know Gaelic?
+
+#humanbaseline
+Average fluent Gaelic speaker
+Average fluent Gaelic speaker
 
 #llmcalltoaction
-More about Large Language Models and Gaelic
-More about Large Language Models and Gaelic
+More about LLMs and Gaelic
+More about LLMs and Gaelic
 
 #llmslug
 /large-language-models

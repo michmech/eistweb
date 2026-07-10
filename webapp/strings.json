@@ -124,8 +124,8 @@
     "gd": "Start here"
   },
   "#moreaboutasr": {
-    "en": "More about Gaelic speech‑to‑text technology",
-    "gd": "More about Gaelic speech‑to‑text technology"
+    "en": "More about Gaelic speech‑to‑text",
+    "gd": "More about Gaelic speech‑to‑text"
   },
   "#asrslug": {
     "en": "speech-to-text",
@@ -140,12 +140,16 @@
     "gd": "LLM Scoreboard"
   },
   "#llmtagline": {
-    "en": "How well do Large Language Models work with Gaelic?",
-    "gd": "How well do Large Language Models work with Gaelic?"
+    "en": "How well do Large Language Models know Gaelic?",
+    "gd": "How well do Large Language Models know Gaelic?"
+  },
+  "#humanbaseline": {
+    "en": "Average fluent Gaelic speaker",
+    "gd": "Average fluent Gaelic speaker"
   },
   "#llmcalltoaction": {
-    "en": "More about Large Language Models and Gaelic",
-    "gd": "More about Large Language Models and Gaelic"
+    "en": "More about LLMs and Gaelic",
+    "gd": "More about LLMs and Gaelic"
   },
   "#llmslug": {
     "en": "large-language-models",

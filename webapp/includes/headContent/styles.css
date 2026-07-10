@@ -92,19 +92,30 @@ main div.prose:last-child {
 }
 
 div.reddot::before {
-  content: "• ";
+  content: "•";
   color: #ff7e7e;
-  font-size: 1.5rem;
-  line-height: 1.25em;
+  font-size: 2rem;
+  line-height: 1em;
   margin-right: 0.25em;
   position: relative;
-  top: 0.15em;
+  top: 5px;
+  margin-left: 5px;
 }
 div.reddot {
+  margin-top: 15px;
   font-size: 1rem;
+  line-height: 1.5em;
+  display: inline-block;
+  background-color: var(--color5);
+  padding: 0px 20px 7px 10px;
+  border-radius: 40px;
+}
+footer div.reddot {
+  background-color: #ffffff;
 }
 div.reddot a {
   color: var(--colorN);
+  border-bottom: none;
 }
 div.reddot a:hover {
   color: #3c6c99;
@@ -141,7 +152,7 @@ main .iconrow div.iconbox {
 main .iconrow span.icon {
   font-size: 3em;
   margin-bottom: 10px;
-  background-color: var(--color2);
+  background-color: var(--color3);
 }
 main a.iconrow:hover span.icon {
   background-color: var(--color3);

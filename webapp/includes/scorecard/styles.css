@@ -1,0 +1,107 @@
+table.scoreboard {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table.scoreboard td {
+  white-space: nowrap;
+  padding: 5px 0px;
+}
+table.scoreboard td.rank {
+  text-align: right;
+  padding-right: 20px;
+  color: var(--color2);
+}
+table.scoreboard td.modelName {
+  padding-right: 20px;
+}
+table.scoreboard td.score {
+  width: 100%;
+}
+@media (max-width: 600px){
+  table.scoreboard {
+    display: block;
+    width: 100%;
+  }
+  table.scoreboard tbody {
+    display: block;
+    width: 100%;
+  }
+  table.scoreboard tr {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+  }
+  table.scoreboard td {
+    display: inline-block;
+  }
+  table.scoreboard td.rank {
+    width: 1em;
+  }
+  table.scoreboard td.score {
+    display: block;
+    margin-left: 2em;
+    width: calc(100% - 2em);
+  }
+}
+
+table.scoreboard td.score div.thermo {
+  width: 100%;
+  background-color: var(--color5);
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+}
+table.scoreboard td.score div.thermo div.inside {
+  height: 100%;
+  background-color: var(--color2);
+  color: #ffffff;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.8em;
+  line-height: 20px;
+  padding-top: 1px;
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+table.scoreboard td.score div.thermo div.inside.grade1 {
+  background-color: #239D6C;
+}
+table.scoreboard td.score div.thermo div.inside.grade2 {
+  background-color: #79BB45;
+}
+table.scoreboard td.score div.thermo div.inside.grade3 {
+  background-color: #A8C02E;
+}
+table.scoreboard td.score div.thermo div.inside.grade4 {
+  background-color: #E6A129;
+}
+table.scoreboard td.score div.thermo div.inside.grade5 {
+  background-color: #E18828;
+}
+table.scoreboard td.score div.thermo div.inside.grade6 {
+  background-color: #DB6829;
+}
+table.scoreboard td.score div.thermo div.inside.grade7 {
+  background-color: #C93C21;
+}
+table.scoreboard td.score div.baseline {
+  width: 100%;
+  overflow: hidden;
+  height: 20px;
+}
+table.scoreboard td.score div.baseline div.inside {
+  height: 100%;
+  box-sizing: border-box;
+  border-top: 4px dotted var(--color2);
+  margin-top: 8px;
+}
+@media (max-width: 600px){
+  table.scoreboard td.score div.baseline {
+    height: 4px;
+  }
+  table.scoreboard td.score div.baseline div.inside {
+    margin-top: 0px;
+  }
+}

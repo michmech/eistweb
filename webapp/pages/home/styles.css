@@ -27,8 +27,8 @@ main div.demoboxline div.demobox {
 main div.demoboxline div.demobox div.top {
   margin: -20px -20px 20px -20px;
   padding: 20px;
-  background-color: var(--color4);
-  /* background-color: var(--color5); */
+  /* background-color: var(--color4); */
+  background-color: var(--color5);
 }
 main div.demoboxline div.demobox div.top h2 {
   color: var(--color1);
@@ -44,6 +44,7 @@ main div.demoboxline div.demobox div.top div.blurb {
 main div.demoboxline div.demobox div.middle {
   min-height: 100px;
   padding-bottom: calc(2.75em + 10px);
+  overflow-x: auto;
 }
 main div.demoboxline div.demobox div.bottom {
   padding: 15px 20px 15px 20px;
