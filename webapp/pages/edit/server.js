@@ -5,14 +5,15 @@ export default function(app, L, do404, rootdir){
   app.get("/edit", function(req, res){
     const nickname=req.query.nickname;
     const returnUrl=req.query.returnUrl;
-    let type, value_gd, value_en;
+    let type, value, value_gd, value_en;
 
     const db=new sqlite("../databases/assets.sqlite", {fileMustExist: true});
     try{
-      const sql=`select type, value_gd, value_en from assets where nickname=$nickname`;
+      const sql=`select type, value, value_gd, value_en from assets where nickname=$nickname`;
       const stmt=db.prepare(sql);
       stmt.all({nickname}).map(row => {
         type = row['type'];
+        value = row['value'];
         value_gd = row['value_gd'];
         value_en = row['value_en'];
       });
@@ -24,7 +25,7 @@ export default function(app, L, do404, rootdir){
 
     res.render("edit/view.ejs", {
       L: (multistring, subpart) => L("gd", multistring, subpart),
-      nickname, returnUrl, type, value_gd, value_en,
+      nickname, returnUrl, type, value, value_gd, value_en,
     });
   });
 
@@ -32,14 +33,15 @@ export default function(app, L, do404, rootdir){
     const nickname=req.body.nickname;
     const returnUrl=req.body.returnUrl;
     const type=req.body.type;
+    const value=req.body.value;
     const value_gd=req.body.value_gd;
     const value_en=req.body.value_en;
   
     const db=new sqlite("../databases/assets.sqlite", {fileMustExist: true});
    try{
-      const sql=`update assets set value_gd=$value_gd, value_en=$value_en where nickname=$nickname`;
+      const sql=`update assets set value=$value, value_gd=$value_gd, value_en=$value_en where nickname=$nickname`;
       const stmt=db.prepare(sql);
-      stmt.run({nickname, value_gd, value_en});
+      stmt.run({nickname, value, value_gd, value_en});
     } catch(e){
       console.log(e);
     } finally {

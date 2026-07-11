@@ -1,4 +1,5 @@
 import sqlite from "better-sqlite3";
+import scoreboardParser from "../../includes/scoreboard/parser.js";
 
 export default function(app, L, do404, rootdir){
 
@@ -6,15 +7,26 @@ export default function(app, L, do404, rootdir){
 
   app.get("/:uilang(gd|en)/"+slugRegex, function(req, res){
     let prose="";
+    let scoreboard=[];
 
     const db=new sqlite("../databases/assets.sqlite", {fileMustExist: true});
-    try{
-      const sql=`select nickname, value_${req.params.uilang} as value from assets where nickname in ('llm')`;
-      const stmt=db.prepare(sql);
-      stmt.all().map(row => {
-        prose = row['value'];
-        prose = app.doMarkdown(prose);
-      });
+    try {
+      {
+        const sql=`select nickname, value_${req.params.uilang} as value from assets where nickname in ('llm')`;
+        const stmt=db.prepare(sql);
+        stmt.all().map(row => {
+          prose = row['value'];
+          prose = app.doMarkdown(prose);
+        });
+      }
+      {
+        const sql=`select nickname, value from assets where nickname in ('llmscoreboard')`;
+        const stmt=db.prepare(sql);
+        stmt.all().map(row => {
+          scoreboard = row['value'];
+          scoreboard = scoreboardParser.parse(scoreboard);
+        });
+      }
     } catch(e){
       console.log(e);
     } finally {
@@ -32,6 +44,7 @@ export default function(app, L, do404, rootdir){
         "en": "/en/" + L("en", "#llmslug"),
       },
       prose,
+      scoreboard,
     });
   });
   
