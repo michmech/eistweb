@@ -5,23 +5,23 @@
   },
   "#sitelongname": {
     "en": "Ecosystem for Interactive Speech Technologies",
-    "gd": "Ecosystem for Interactive Speech Technologies"
+    "gd": "Èiceo‑shiostam airson Theicneòlasan Eadar‑Gnìomhachach Labhairte"
   },
   "#hometitle": {
-    "en": "The Future of Gaelic in the Digital Age",
-    "gd": "The Future of Gaelic in the Digital Age"
+    "en": "Building the Future for Gaelic in the Digital Age",
+    "gd": "A' Togail Chothroman dhan Ghàidhlig san Linn Digitich"
   },
   "#homesubtitle": {
-    "en": "ÈIST is building speech & language technology for Scottish Gaelic.",
-    "gd": "ÈIST is building speech & language technology for Scottish Gaelic."
+    "en": "ÈIST is providing speech & language technology for Scottish Gaelic.",
+    "gd": "Tha ÈIST a' lìbhreagadh teicneòlas cainnte is cànain dhan Ghàidhlig."
   },
   "#footerline1": {
     "en": "Led by the University of Edinburgh",
-    "gd": "Led by the University of Edinburgh"
+    "gd": "Air a stiùireadh aig Oilthigh Dhùn Èideann"
   },
   "#footerline2": {
     "en": "Funded by Bòrd na Gàidhlig and the Scottish Government",
-    "gd": "Funded by Bòrd na Gàidhlig and the Scottish Government"
+    "gd": "Maoinichte aig Bòrd na Gàidhlig agus Riaghaltas na h‑Alba"
   },
   "#unofed": {
     "en": "The University of Edinburgh",
@@ -40,8 +40,8 @@
     "gd": "Bòrd na Gàidhlig"
   },
   "#tobar": {
-    "en": "Tobar an Dualchais",
-    "gd": "Tobar an Dualchais"
+    "en": "Tobar an Dualchais / Kist o Riches",
+    "gd": "Tobar an Dualchais / Kist o Riches"
   },
   "#unofedstatement": {
     "en": "The University of Edinburgh is a charitable body, registered in Scotland, with registration number SC005336, VAT Registration Number GB 592 9507 00, and is acknowledged by the UK authorities as a “Recognised body” which has been granted degree awarding powers.",
@@ -57,31 +57,31 @@
   },
   "#abouttagline": {
     "en": "What we do and why",
-    "gd": "What we do and why"
+    "gd": "Na bhios sinn ris agus carson"
   },
   "#teampartners": {
     "en": "Team and partners",
-    "gd": "Team and partners"
+    "gd": "Sgioba agus com‑pàirtichean"
   },
   "#teampartnersslug": {
     "en": "team-and-partners",
-    "gd": "team-and-partners"
+    "gd": "sgioba-agus-com-pairtichean"
   },
   "#teampartnerstagline": {
     "en": "The people and organisations behind ÈIST",
-    "gd": "The people and organisations behind ÈIST"
+    "gd": "Na daoine agus buidhnean air chùl ÈIST"
   },
   "#resultspubs": {
     "en": "Results and publications",
-    "gd": "Results and publications"
+    "gd": "Toraidhean is foillseachaidhean"
   },
   "#resultspubsslug": {
     "en": "results-and-publications",
-    "gd": "results-and-publications"
+    "gd": "toraidhean-is-foillseachaidhean"
   },
   "#resultspubstagline": {
     "en": "All ÈIST output in one place",
-    "gd": "All ÈIST output in one place"
+    "gd": "Toraidhean iomlan ÈIST ann an aon àite"
   },
   "#openingthewell": {
     "en": "Opening The Well",
@@ -101,7 +101,7 @@
   },
   "#visitopeningthewell": {
     "en": "Visit Opening the Well website",
-    "gd": "Visit Opening the Well website"
+    "gd": "Tadhal air làraich Fhosgladh an Tobair"
   },
   "#openingthewellcalltoaction": {
     "en": "Become a volunteer transcriber",
@@ -113,74 +113,74 @@
   },
   "#asrtagline": {
     "en": "Converting spoken Gaelic to written text",
-    "gd": "Converting spoken Gaelic to written text"
+    "gd": "A' tionndadh Gàidhlig labhairte gu teacsa sgrìobhte"
   },
   "#subtitleavideo": {
     "en": "Subtitle a Gaelic video",
-    "gd": "Subtitle a Gaelic video"
+    "gd": "Cuir fo‑thiotalan air bhideo Gàidhlig"
   },
   "#starthere": {
     "en": "Start here",
-    "gd": "Start here"
+    "gd": "Tòisich an seo"
   },
   "#moreaboutasr": {
     "en": "More about Gaelic speech‑to‑text",
-    "gd": "More about Gaelic speech‑to‑text"
+    "gd": "Barrachd mu dheidhinn labhairt‑gu‑teacsa"
   },
   "#asrslug": {
     "en": "speech-to-text",
-    "gd": "speech-to-text"
+    "gd": "labhairt-gu-teacsa"
   },
   "#asrpagetitle": {
     "en": "Gaelic speech‑to‑text technology",
-    "gd": "Gaelic speech‑to‑text technology"
+    "gd": "Teicneòlas labhairt‑gu‑teacsa Gàidhlig"
   },
   "#llmscoreboard": {
     "en": "LLM Scoreboard",
-    "gd": "LLM Scoreboard"
+    "gd": "Sgòr‑bhòrd MCM"
   },
   "#llmtagline": {
     "en": "How well do Large Language Models know Gaelic?",
-    "gd": "How well do Large Language Models know Gaelic?"
+    "gd": "Dè cho math 's as a bhios Modailean Cànain Mòra a' tuigsinn na Gàidhlig?"
   },
   "#humanbaseline": {
     "en": "Average fluent Gaelic speaker",
-    "gd": "Average fluent Gaelic speaker"
+    "gd": "Duine fìleanta san fharsaingeachd"
   },
   "#llmcalltoaction": {
     "en": "More about LLMs and Gaelic",
-    "gd": "More about LLMs and Gaelic"
+    "gd": "Barrachd mu dheidhinn MnCM agus a' Ghàidhlig"
   },
   "#llmslug": {
     "en": "large-language-models",
-    "gd": "large-language-models"
+    "gd": "modailean-canain-mora"
   },
   "#llmpagetitle": {
     "en": "Large Language Models and Gaelic",
-    "gd": "Large Language Models and Gaelic"
+    "gd": "Modailean Cànain Mòra agus a' Ghàidhlig"
   },
   "#login": {
     "en": "Log in",
-    "gd": "Log in"
+    "gd": "Clàraich a‑staigh"
   },
   "#logout": {
     "en": "Log out",
-    "gd": "Log out"
+    "gd": "Clàraich a‑mach"
   },
   "#editthistext": {
     "en": "Edit this text",
-    "gd": "Edit this text"
+    "gd": "Atharraich an teacsa seo"
   },
   "#editthisdata": {
     "en": "Edit these data",
-    "gd": "Edit these data"
+    "gd": "Atharraich an dàta seo"
   },
   "#save": {
     "en": "Save",
-    "gd": "Save"
+    "gd": "Glèidh"
   },
   "#cancel": {
     "en": "Cancel",
-    "gd": "Cancel"
+    "gd": "Dubh às"
   }
 }

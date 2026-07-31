@@ -7,23 +7,24 @@ Homepage, header, footer:
 
 #sitelongname
 Ecosystem for Interactive Speech Technologies
-Ecosystem for Interactive Speech Technologies
+Èiceo-shiostam airson Theicneòlasan Eadar-Gnìomhachach Labhairte
+
 
 #hometitle
-The Future of Gaelic in the Digital Age
-The Future of Gaelic in the Digital Age
+Building the Future for Gaelic in the Digital Age
+A' Togail Chothroman dhan Ghàidhlig san Linn Digitich
 
 #homesubtitle
-ÈIST is building speech & language technology for Scottish Gaelic.
-ÈIST is building speech & language technology for Scottish Gaelic.
+ÈIST is providing speech & language technology for Scottish Gaelic.
+Tha ÈIST a' lìbhreagadh teicneòlas cainnte is cànain dhan Ghàidhlig. 
 
 #footerline1
 Led by the University of Edinburgh
-Led by the University of Edinburgh
+Air a stiùireadh aig Oilthigh Dhùn Èideann
 
 #footerline2
 Funded by Bòrd na Gàidhlig and the Scottish Government
-Funded by Bòrd na Gàidhlig and the Scottish Government
+Maoinichte aig Bòrd na Gàidhlig agus Riaghaltas na h-Alba
 
 #unofed
 The University of Edinburgh
@@ -42,8 +43,8 @@ Bòrd na Gàidhlig
 Bòrd na Gàidhlig
 
 #tobar
-Tobar an Dualchais
-Tobar an Dualchais
+Tobar an Dualchais / Kist o Riches
+Tobar an Dualchais / Kist o Riches
 
 
 Statement in the footer of every page, required by CAHSS
@@ -68,31 +69,31 @@ Mu dheidhinn ÈIST
 
 #abouttagline
 What we do and why
-What we do and why
+Na bhios sinn ris agus carson
 
 #teampartners
 Team and partners
-Team and partners
+Sgioba agus com-pàirtichean
 
 #teampartnersslug
 /team-and-partners
-/team-and-partners
+/sgioba-agus-com-pairtichean
 
 #teampartnerstagline
 The people and organisations behind ÈIST
-The people and organisations behind ÈIST
+Na daoine agus buidhnean air chùl ÈIST
 
 #resultspubs
 Results and publications
-Results and publications
+Toraidhean is foillseachaidhean
 
 #resultspubsslug
 /results-and-publications
-/results-and-publications
+/toraidhean-is-foillseachaidhean
 
 #resultspubstagline
 All ÈIST output in one place
-All ÈIST output in one place
+Toraidhean iomlan ÈIST ann an aon àite
 
 
 Opening the Well stuff
@@ -116,7 +117,7 @@ Faclan tar-sgrìobhte cheana
 
 #visitopeningthewell
 Visit Opening the Well website
-Visit Opening the Well website
+Tadhal air làraich Fhosgladh an Tobair
 
 #openingthewellcalltoaction
 Become a volunteer transcriber
@@ -132,80 +133,78 @@ Aithneachadh Labhairt Fèin-obrachachail
 
 #asrtagline
 Converting spoken Gaelic to written text
-Converting spoken Gaelic to written text
+A' tionndadh Gàidhlig labhairte gu teacsa sgrìobhte
 
 #subtitleavideo
 Subtitle a Gaelic video
-Subtitle a Gaelic video
+Cuir fo-thiotalan air bhideo Gàidhlig
 
 #starthere
 Start here
-Start here
+Tòisich an seo
 
 #moreaboutasr
 More about Gaelic speech-to-text
-More about Gaelic speech-to-text
+Barrachd mu dheidhinn labhairt-gu-teacsa
 
 #asrslug
 /speech-to-text
-/speech-to-text
+/labhairt-gu-teacsa
 
 #asrpagetitle
 Gaelic speech-to-text technology
-Gaelic speech-to-text technology
-
+Teicneòlas labhairt-gu-teacsa Gàidhlig
 
 LLM stuff
 ---------
 
 #llmscoreboard
 LLM Scoreboard
-LLM Scoreboard
+Sgòr-bhòrd MCM
 
 #llmtagline
 How well do Large Language Models know Gaelic?
-How well do Large Language Models know Gaelic?
+Dè cho math 's as a bhios Modailean Cànain Mòra a' tuigsinn na Gàidhlig?
 
 #humanbaseline
 Average fluent Gaelic speaker
-Average fluent Gaelic speaker
+Duine fìleanta san fharsaingeachd
 
 #llmcalltoaction
 More about LLMs and Gaelic
-More about LLMs and Gaelic
+Barrachd mu dheidhinn MnCM agus a' Ghàidhlig
 
 #llmslug
 /large-language-models
-/large-language-models
+/modailean-canain-mora
 
 #llmpagetitle
 Large Language Models and Gaelic
-Large Language Models and Gaelic
-
+Modailean Cànain Mòra agus a' Ghàidhlig
 
 Red dot stuff
 -------------
 
 #login
 Log in
-Log in
+Clàraich a-staigh
 
 #logout
 Log out
-Log out
+Clàraich a-mach
 
 #editthistext
 Edit this text
-Edit this text
+Atharraich an teacsa seo
 
 #editthisdata
 Edit these data 
-Edit these data
+Atharraich an dàta seo
 
 #save
 Save
-Save
+Glèidh
 
 #cancel
 Cancel
-Cancel
+Dubh às
