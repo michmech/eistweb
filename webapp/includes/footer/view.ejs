@@ -35,7 +35,11 @@
     </div>
 
     <div class="reddot">
-      <a href="/logout"><%=L("#logout")%></a>
+      <%if(loggedIn){%>
+        <a href="/logout?to=<%=pageUrls[uilang]%>"><%=L("#logout")%></a>
+      <%} else {%>
+        <a href="/login?to=<%=pageUrls[uilang]%>"><%=L("#login")%></a>
+      <%}%>
     </div>
 
 

@@ -75,6 +75,10 @@ function do404(req, res){
 }
 
 //Hook up our webpage-serving endpoints:
+import page_login from "./pages/login/server.js";
+  page_login(app, L, do404, __dirname);
+import page_logout from "./pages/logout/server.js";
+  page_logout(app, L, do404, __dirname);
 import page_home from "./pages/home/server.js";
   page_home(app, L, do404, __dirname);
 import page_about from "./pages/about/server.js";

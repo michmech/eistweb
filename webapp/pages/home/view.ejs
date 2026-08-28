@@ -69,9 +69,11 @@
           </div>
           <div class="middle">
             <%-include("../../includes/scoreboard/view.ejs", this)%>
-            <div class="reddot">
-              <a href="/edit?nickname=llmscoreboard&returnUrl=<%=pageUrls[uilang]%>"><%=L("#editthisdata")%></a>
-            </div>
+            <%if(loggedIn){%>
+              <div class="reddot">
+                <a href="/edit?nickname=llmscoreboard&returnUrl=<%=pageUrls[uilang]%>"><%=L("#editthisdata")%></a>
+              </div>
+            <%}%>
           </div>
           <div class="bottom">
             <a href="/<%-uilang%>/<%-L('#llmslug')%>"><%=L("#llmcalltoaction")%>...</a>

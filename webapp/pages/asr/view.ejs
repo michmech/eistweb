@@ -28,9 +28,11 @@
 
       <div class="prose">
         <%-prose%>
-        <div class="reddot">
-          <a href="/edit?nickname=asr&returnUrl=<%=pageUrls[uilang]%>"><%=L("#editthistext")%></a>
-        </div>
+        <%if(loggedIn){%>
+          <div class="reddot">
+            <a href="/edit?nickname=asr&returnUrl=<%=pageUrls[uilang]%>"><%=L("#editthistext")%></a>
+          </div>
+        <%}%>
       </div>
 
 

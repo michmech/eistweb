@@ -21,16 +21,20 @@
           <h2><%=L("#llmscoreboard")%></h2>
         </div>
         <%-include("../../includes/scoreboard/view.ejs", this)%>
-        <div class="reddot">
-          <a href="/edit?nickname=llmscoreboard&returnUrl=<%=pageUrls[uilang]%>"><%=L("#editthisdata")%></a>
-        </div>
+        <%if(loggedIn){%>
+          <div class="reddot">
+            <a href="/edit?nickname=llmscoreboard&returnUrl=<%=pageUrls[uilang]%>"><%=L("#editthisdata")%></a>
+          </div>
+        <%}%>
       </div>
 
       <div class="prose">
         <%-prose%>
-        <div class="reddot">
-          <a href="/edit?nickname=llm&returnUrl=<%=pageUrls[uilang]%>"><%=L("#editthistext")%></a>
-        </div>
+        <%{%>
+          <div class="reddot">
+            <a href="/edit?nickname=llm&returnUrl=<%=pageUrls[uilang]%>"><%=L("#editthistext")%></a>
+          </div>
+        <%}%>
       </div>
 
 

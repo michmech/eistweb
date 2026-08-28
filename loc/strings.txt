@@ -193,6 +193,18 @@ Clàraich a-staigh
 Log out
 Clàraich a-mach
 
+#username
+Username
+Ainm-cleachdaiche
+
+#password
+Password
+Facal-faire
+
+#loginfailed
+Incorrect username or incorrect password.
+Ainm-cleachdaiche ceàrr no facal-faire ceàrr.
+
 #editthistext
 Edit this text
 Atharraich an teacsa seo

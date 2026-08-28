@@ -167,6 +167,18 @@
     "en": "Log out",
     "gd": "Clàraich a‑mach"
   },
+  "#username": {
+    "en": "Username",
+    "gd": "Ainm‑cleachdaiche"
+  },
+  "#password": {
+    "en": "Password",
+    "gd": "Facal‑faire"
+  },
+  "#loginfailed": {
+    "en": "Incorrect username or incorrect password.",
+    "gd": "Ainm‑cleachdaiche ceàrr no facal‑faire ceàrr."
+  },
   "#editthistext": {
     "en": "Edit this text",
     "gd": "Atharraich an teacsa seo"
