@@ -7,9 +7,14 @@ export default function(app, L, do404, rootdir){
     res.redirect("/gd");
   });
 
-  app.get("/:uilang(gd|en)/", function(req, res){
+  app.get("/:uilang(gd|en)/", async function(req, res){
     let loggedIn=false;
     let scoreboard=[];
+    let stats = {words: 37399, hours: 3, minutes: '35'};
+
+    //start fetching OTW stats, let the fetch run in parallel to the rest of the code:
+    const statsPromise = fetch("https://openingthewell.cahss.ed.ac.uk/stats")
+      .then(response => response.ok ? response.json() : stats);
 
     const db=new sqlite("../databases/assets.sqlite", {fileMustExist: true});
     try {
@@ -33,6 +38,9 @@ export default function(app, L, do404, rootdir){
       db.close();
     }
 
+    //wait for the OTW stats fetch to finish, it it hasn't already:
+    stats = await statsPromise;
+
     res.render("home/view.ejs", {
       uilang: req.params.uilang,
       L: (multistring, subpart) => L(req.params.uilang, multistring, subpart),
@@ -45,6 +53,7 @@ export default function(app, L, do404, rootdir){
       },
       loggedIn,
       scoreboard,
+      stats,
     });
   });
   

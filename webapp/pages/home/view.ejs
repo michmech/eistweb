@@ -27,12 +27,12 @@
             <a class="iconrow of2" title="<%=L('#visitopeningthewell')%>" target="_blank" href="https://fosgladh.tobarandualchais.co.uk/<%-uilang%>">
               <div class="iconbox">
                 <span class="icon clock"></span>
-                <span class="num">3:35</span>
+                <span class="num"><%=stats.hours%>:<%=stats.minutes%></span>
                 <span class="caption"><%=L("#hourminustessofar")%></span>
               </div>
               <div class="iconbox">
                 <span class="icon keyboard"></span>
-                <span class="num">37,399</span>
+                <span class="num"><%=stats.words.toLocaleString("en", {useGrouping: true})%></span>
                 <span class="caption"><%=L("#wordssofar")%></span>
               </div>
             </a>
