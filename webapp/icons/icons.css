@@ -139,3 +139,7 @@ span.icon.circle-play {
   mask-image: url(/circle-play.svg);
   -webkit-mask-image: url(/circle-play.svg);
 }
+span.icon.github {
+  mask-image: url(/github.svg);
+  -webkit-mask-image: url(/github.svg);
+}

@@ -33,7 +33,7 @@
     <div class="statement">
       <%=L('#unofedstatement')%>
     </div>
-
+    
     <div class="reddot">
       <%if(loggedIn){%>
         <a href="/logout?to=<%=pageUrls[uilang]%>"><%=L("#logout")%></a>
@@ -41,6 +41,11 @@
         <a href="/login?to=<%=pageUrls[uilang]%>"><%=L("#login")%></a>
       <%}%>
     </div>
+      
+    <a class="sourcecode" target="_blank" href="https://github.com/michmech/eistweb">
+      <span class="icon github"></span>
+      <%=L('#sourcecode')%>
+    </a>
 
 
   </div>

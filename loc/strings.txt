@@ -46,6 +46,10 @@ Bòrd na Gàidhlig
 Tobar an Dualchais / Kist o Riches
 Tobar an Dualchais / Kist o Riches
 
+#sourcecode
+source code
+còd tùsail
+
 
 Statement in the footer of every page, required by CAHSS
 Digital Estates Team's 'Responsibilities for site owners' document:

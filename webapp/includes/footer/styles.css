@@ -82,3 +82,23 @@ footer div.statement {
   line-height: 1.5em;
   max-width: 600px;
 }
+
+footer a.sourcecode {
+  font-size: 0.95em;
+  line-height: 1.5em;
+  margin-left: 1em;
+  color: var(--colorN);
+  border: 0px;
+}
+footer a.sourcecode span.icon {
+  margin-right: 0.25em;
+  background-color: var(--colorN);
+  position: relative;
+  top: -1px;
+}
+footer a.sourcecode:hover {
+  color: #3c6c99;
+}
+footer a.sourcecode:hover span.icon {
+  background-color: #3c6c99;
+}

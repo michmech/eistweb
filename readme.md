@@ -1,1 +1,1 @@
-Source code for the ËIST website, [https://eist.ed.ac.uk](https://eist.ed.ac.uk/).
+Source code for the ÈIST project website, [https://eist.ed.ac.uk](https://eist.ed.ac.uk/).
